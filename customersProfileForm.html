@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Customer's Profile</h3>
+    <form>
+        <label for="clientId">Client ID:</label>
+        <input type="number" id="clientId" placeholder="1002"/>
+        <br/>
+        <br/>
+
+        <label for="accountNo">Account No:</label>
+        <input type="number" id="accountNo" placeholder="03889292"/>
+        <br/>
+        <br/>
+
+        <label for="fname">FirstName:</label>
+        <input type="text" id="fname" placeholder="Enter first name" value="Manny"/>
+        <label for="MidName">Middlename</label>
+        <input type="text" id="MidName" placeholder="enter middle name"/>
+        <label for="LastName">LastName</label>
+        <input type="text" id="LastName" placeholder="Enter Last Name" placeholder="Villar"/>
+        <br/><br/>
+        <label for="address">Address:</label>
+        <input type="text" id="address" placeholder="Enter Address"/>
+        <br/>
+        <br/>
+        <label for="age">Age</label>
+        <input type="date" id="age"/>
+        <br/><br/>
+        <label for="birthPlace">Birth Place:</label>
+        <input type="text" id="birthPlace"/>
+        <br/><br/>
+
+        <label for="nationality">Nationality</label>
+        <input type="text" id="nationality"/>
+        <br/><br/>
+
+        <label>Languages</label>
+        <input type="checkbox" id="hindi" name="languages" checked/>
+        <label for="hindi">Hindi</label>
+        <input type="checkbox" id="english" name="languages"/>
+        <label for="english">English</label>
+        <input type="checkbox" id="marathi" name="languages"/>
+        <label for="marathi">Marathi</label>
+        <br/><br/>
+
+
+        <label>Gender</label>
+        <!--here we have to keep the value of name attribute same for that if we 
+        want user can select only one radio button from the male female others-->
+        <input type="radio" id="male" name="gender" checked/>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender"/>
+        <label for="female">Female</label>
+        <input type="radio" id="others" name="gender"/>
+        <label for="others">Others</label>
+        <br/><br/>
+
+        <label for="ACR">ACR:</label>
+        <input type="number" id="ACR"/>
+        <br/><br/>
+
+        <label for="TIN">TIN:</label>
+        <input type="number" id="ACR"/>
+        <br/><br/>
+
+        <label for="children">Children:</label>
+        <input type="number" id="ACR" value="0" min="0 "/>
+        <br/><br/>
+
+        <label for="civilStatus">Civil Status:</label>
+        <select>
+            <option selected>Married</option>
+            <option>Unmarried</option>
+            <option>Widow</option>
+        </select>
+        <br/><br/>
+
+        <label for="spouse">Spouse</label>
+        <input type="text" id="spouse"/>
+        <br/><br/>
+
+        <label for="referred">Referred:</label>
+        <input type="text" id="referred"/>
+        <br/><br/>
+
+        <input type="submit" value="Save"/>
+        <input type="reset" value="Close"/>
+        
+
+    </form>
+</body>
+</html>
